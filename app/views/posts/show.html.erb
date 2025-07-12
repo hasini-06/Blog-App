@@ -1,10 +1,9 @@
 <h3><%= @post.title %></h3>
+<%= @post.description%>
 
 <h3>Comments:</h3>
-<ul>
-    
+<ul>   
   <li>
-  <%= @post.description%>
 
   <% @post.comments.each do |comment| %>
     <li>
